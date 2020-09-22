@@ -1,0 +1,29 @@
+{
+    "name": "weather_bot",
+    "version": "1.0.0",
+    "description": "Weather bot for Telegram made using TelegrafJs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node index.js"
+    },
+    "dependencies": {
+        "telegraf": "^3.38.0",
+        "request": "^2.88.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cachecleanerjeet/weather-bot.git"
+    },
+    "keywords": [
+        "weather",
+        "telegrafjs",
+        "yahoo-weather"
+    ],
+    "author": "Tuhin Kanti Pal",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/cachecleanerjeet/weather-bot/issues"
+    },
+    "homepage": "https://github.com/cachecleanerjeet/weather-bot#readme"
+}
