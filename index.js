@@ -8,7 +8,7 @@ const API_TOKEN = '1252739181:AAHBM-ivKFOsANlYgrLdfQzA51MPA5dW4Y4';
 //replace with your own weather api url
 //crete one here https://github.com/cachecleanerjeet/weather-api
 //or use that default
-const API_URL = 'https://weather.thetuhin.com';
+const API_URL = 'https://weather-api-tuhin.vercel.app/api?query=';
 
 
 const bot = new Telegraf(API_TOKEN);
@@ -34,7 +34,7 @@ bot.on('message', (ctx) => {
     var formattedmsg = recmsg.replace(/ /gi, '+');
     var options = {
         'method': 'GET',
-        'url': API_URL + '/loc?query=' + formattedmsg
+        'url': API_URL + formattedmsg
     };
     request(options, function(error, response) {
         if (error) throw new Error(error);
