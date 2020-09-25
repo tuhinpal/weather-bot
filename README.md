@@ -17,14 +17,9 @@
 **You need few things to deploy this bot:**
 - Deploy your Weather API Server <br>
 https://github.com/cachecleanerjeet/weather-api
-- A VPS or Heroku
+- A VPS
 
-
-**1. Deploy to Heroku 👇**
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cachecleanerjeet/weather-bot/tree/heroku)
-
-**2. Deploy to VPS 👇**
+**Deploy to VPS 👇**
 
 - Clone this Repository
 
